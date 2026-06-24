@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class Review {
 
-    private Long ID;
+    private Long id;
     private int score;
     private String comment;
     private LocalDateTime ratedAtDate;
@@ -12,12 +12,12 @@ public class Review {
     public Review() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public int getScore() {

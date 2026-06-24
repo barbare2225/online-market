@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Seller {
 
-    private Long ID;
+    private Long id;
     private String name;
     private String Surname;
     private Passport passport;
@@ -14,12 +14,12 @@ public class Seller {
     public Seller() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {

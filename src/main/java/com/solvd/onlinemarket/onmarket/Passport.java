@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Passport {
 
-    private Long ID;
+    private Long id;
     private LocalDate expirationDate;
 
     public Passport() {
@@ -18,4 +18,11 @@ public class Passport {
         this.expirationDate = expirationDate;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }

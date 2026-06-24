@@ -1,24 +1,25 @@
 package com.solvd.onlinemarket.onmarket;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class Product {
 
-    private Long ID;
+    private Long id;
     private String name;
-    private double price;
+    private BigDecimal price;
     private int stock;
     private List<Review> reviews;
 
     public Product() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -37,11 +38,11 @@ public class Product {
         this.reviews = reviews;
     }
 
-    public double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
