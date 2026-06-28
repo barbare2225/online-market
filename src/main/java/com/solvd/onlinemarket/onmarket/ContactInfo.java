@@ -2,19 +2,19 @@ package com.solvd.onlinemarket.onmarket;
 
 public class ContactInfo {
 
-    private Long ID;
+    private Long id;
     private String email;
     private String phoneNumber;
 
     public ContactInfo() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getEmail() {

@@ -1,25 +1,26 @@
 package com.solvd.onlinemarket.onmarket;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
 public class Order {
 
-    private Long ID;
-    private double totalPrice;
-    private boolean isPaid;
+    private Long id;
+    private BigDecimal totalPrice;
+    private boolean paid;
     private LocalDateTime createdAtDate;
     private List<Product> products;
 
     public Order() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public List<Product> getProducts() {
@@ -30,20 +31,20 @@ public class Order {
         this.products = products;
     }
 
-    public double getTotalPrice() {
+    public BigDecimal getTotalPrice() {
         return totalPrice;
     }
 
-    public void setTotalPrice(double totalPrice) {
+    public void setTotalPrice(BigDecimal totalPrice) {
         this.totalPrice = totalPrice;
     }
 
     public boolean isPaid() {
-        return isPaid;
+        return paid;
     }
 
     public void setPaid(boolean paid) {
-        isPaid = paid;
+        this.paid = paid;
     }
 
     public LocalDateTime getCreatedAtDate() {

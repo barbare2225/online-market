@@ -5,7 +5,7 @@ import java.util.List;
 
 public class OnlineMarket {
 
-    private Long ID;
+    private Long id;
     private String name;
     private LocalDateTime foundedAtDate;
     private ContactInfo contactInfo;
@@ -20,12 +20,12 @@ public class OnlineMarket {
     public OnlineMarket() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {

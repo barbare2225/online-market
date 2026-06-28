@@ -4,10 +4,10 @@ import java.util.List;
 
 public class Customer {
 
-    private Long ID;
+    private Long id;
     private String name;
     private String surname;
-    private boolean isVerified;
+    private boolean verified;
     private ContactInfo contactInfo;
     private Address address;
     private Passport passport;
@@ -17,12 +17,12 @@ public class Customer {
     public Customer() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -74,11 +74,11 @@ public class Customer {
     }
 
     public boolean isVerified() {
-        return isVerified;
+        return verified;
     }
 
     public void setVerified(boolean verified) {
-        isVerified = verified;
+        this.verified = verified;
     }
 
     public Passport getPassport() {

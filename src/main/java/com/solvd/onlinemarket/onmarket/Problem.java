@@ -2,20 +2,20 @@ package com.solvd.onlinemarket.onmarket;
 
 public class Problem {
 
-    private Long ID;
+    private Long id;
     private String title;
     private String description;
-    private boolean isResolved;
+    private boolean resolved;
 
     public Problem() {
     }
 
-    public Long getID() {
-        return ID;
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -35,10 +35,10 @@ public class Problem {
     }
 
     public boolean isResolved() {
-        return isResolved;
+        return resolved;
     }
 
     public void setResolved(boolean resolved) {
-        isResolved = resolved;
+        this.resolved = resolved;
     }
 }

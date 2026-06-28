@@ -2,7 +2,7 @@ package com.solvd.onlinemarket.onmarket;
 
 public class Employee {
 
-    private Long ID;
+    private Long id;
     private String name;
     private String surname;
     private ContactInfo contactInfo;
@@ -12,12 +12,13 @@ public class Employee {
     public Employee() {
     }
 
-    public Long getID() {
-        return ID;
+
+    public Long getId() {
+        return id;
     }
 
-    public void setID(Long ID) {
-        this.ID = ID;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
