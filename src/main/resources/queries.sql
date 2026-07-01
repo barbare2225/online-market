@@ -177,12 +177,16 @@ from customers c
          right join orders o
                     on c.id = o.customer_id;
 
-select c.id as customer_id,
-       c.name,
-       p.id as passport_id,
-       p.expiration_date
-from customers c
-         cross join passports p;
+select a.id as address_id,
+       a.country,
+       a.city,
+       a.street,
+       a.zipCode,
+       ci.id as contact_info_id,
+       ci.email
+from addresses a
+         cross join contact_infos ci;
+
 
 select c.id as customer_id,
        c.name,
